@@ -1,1 +1,33 @@
+html {
+  font-family: arial, san-serif;
+}
+
+#contactCard {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#profile {
+  width: 200px;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(7deg);
+  padding: 1em 1em 2.5em 1em;
+  float: left;
+  margin-right: 3em;
+  background-color: #e5dfdf;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#contactCard .textBlock {
+  padding-top: 30px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+
+
 
