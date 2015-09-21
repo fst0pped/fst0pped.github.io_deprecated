@@ -24,8 +24,39 @@ html {
   padding-top: 30px;
 }
 
+#nav {
+  height: 3em;
+  padding: 0.1em;
+  background-color: #ccf;
+}
+
+#nav li {
+  display: inline;
+  padding: 1em 1em;
+  vertical-align: middle;
+}
+
+#nav li:first-child {
+  padding-left: 250px;
+}
+
+#nav a:hover {
+  color: #fff;
+}
+
+#nav a:visited {
+  height: 3em;
+  padding: 1em;
+  color: #009;
+  background-color: #009;
+}
+
 h1 {
   font-size: 3em;
+}
+
+.blue {
+  color: #009;
 }
 
 
