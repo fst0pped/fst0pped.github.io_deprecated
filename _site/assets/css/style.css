@@ -37,7 +37,7 @@ html {
 #nav {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-top: 2px solid #009;
+  border-top: 4px solid #009;
   border-bottom: 2px solid #009;
 }
 
@@ -64,10 +64,9 @@ html {
 
 #nav a:hover {
   color: #009;
-  background-color: #fff;
-  border: 0.1em solid #009;
-  padding: 0.7em;
-  margin: -0.8em
+  background-color: #eef;
+  padding: 0.26em;
+  margin: -0.26em;
 }
 
 h1 {
@@ -79,9 +78,11 @@ h1 {
 }
 
 #footer {
+  font-size: 0.8em;
   height: 2em;
-  margin-top: 10%;
   padding: 1em;
+  border-top: 2px solid #009;
+  margin-top: 4em;
   text-align: center;
 }
 
