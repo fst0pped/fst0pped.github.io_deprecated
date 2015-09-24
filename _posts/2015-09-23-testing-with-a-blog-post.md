@@ -1,6 +1,6 @@
 ---
 layout: posts
-tags: testing, blogging
+categories: testing, blogging
 ---
 
 Testing out some blogposts on this test site.

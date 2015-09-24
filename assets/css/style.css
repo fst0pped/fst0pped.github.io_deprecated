@@ -82,6 +82,10 @@ h1 {
   color: #009;
 }
 
+h5.tags, h3.post_title {
+  display: inline;
+}
+
 #footer {
   font-size: 0.8em;
   height: 2em;
