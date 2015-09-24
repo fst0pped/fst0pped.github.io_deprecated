@@ -36,8 +36,9 @@ html {
   margin-top: 5%;
 }
 
-#contactCard .textBlock {
+#contactCard .right_block {
   padding-top: 2%;
+  margin-left: 40%;
   font-size: 150%;
 }
 
