@@ -82,6 +82,10 @@ h1 {
   color: #009;
 }
 
+.desc {
+  text-align: center;
+}
+
 h5.tags, h3.post_title {
   display: inline;
 }
