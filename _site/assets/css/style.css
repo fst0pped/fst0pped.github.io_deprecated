@@ -85,6 +85,11 @@ h1 {
 
 .desc {
   text-align: center;
+  color: #224;
+  /*background-color: #f5f5ff;*/
+  /*padding: 0.1em;*/
+  border: 0.3em dotted #fff;
+  margin: 0.4em;
 }
 
 h5.tags, h3.post_title {
