@@ -11,45 +11,6 @@ html {
   margin-top: 1em;
 }
 
-#profile {
-  margin-right: 1em;
-  margin-bottom: 0.5em;
-  background-color: #e5dfdf;
-  box-shadow: 10px 10px 5px #888888;
-}
-
-#profile img#me {
-  width: 100%;
-}
-
-#profile .logo_container {
-  display: inline;
-}
-
-#profile img.logo {
-  width: 15%;
-  padding: 0% 5%;
-  margin-top: 5%;
-}
-
-.right_block, .left_block {
-  font-size: 150%;
-}
-
-.right_block {
-  padding-top: 1%;
-  margin-left: 35%;
-}
-
-.left_block {
-  -ms-transform: rotate(7deg); /* IE 9 */
-  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-  transform: rotate(7deg);
-  width: 27%;
-  padding: 2%;
-  float: left;
-}
-
 #nav {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
@@ -81,6 +42,55 @@ html {
   padding: 0.26em;
   margin: -0.26em;
 }
+
+.right_block, .left_block {
+  font-size: 150%;
+}
+
+.right_block {
+  padding-top: 1%;
+  margin-left: 35%;
+}
+
+.left_block {
+  width: 27%;
+  margin: 1%;
+  float: left;
+}
+
+#profile_pic_container {
+  margin-top: 1em;
+  padding-right: 3%;
+  /*border-right: 3px solid #009;*/
+}
+
+#profile_pic img#me {
+  width: 100%;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#profile_pic_container .logo_container {
+  margin: 5% 0%;
+}
+
+#profile_pic_container img.logo {
+  display: inline;
+  width: 15%;
+  margin: 4%;
+  margin-top: 4.5%; /* stops slight vertical movement on hover in Chrome */
+}
+
+#profile_pic_container img.logo:hover {
+  width: 20%;
+  margin: 1.5%;
+}
+
+#text_desc {
+  padding: 0.5% 2% 0.5% 0.5%;
+  margin: 1% 1% 2% 1%;
+  border-right: 3px solid #009;
+  /*box-shadow: 10px 10px 5px #888888;*/
+  }
 
 h1 {
   font-size: 3em;
