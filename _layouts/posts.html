@@ -1,13 +1,16 @@
 <html>
   <head>
 	  {% include base.html %}
+	  <meta charset="utf-8">
 	  <link rel="stylesheet" type="text/css" href="{{ base }}/assets/css/style.css" />
   </head>
   <body>
     <div id="contactCard">
     {% include nav.html %}
     <h1>{{ page.title }}</h1>
-    {{ content }}
+      <div id="blog_post">
+        {{ content }}
+      </div>
     {% include footer.html %}
     </div>
   </body>
