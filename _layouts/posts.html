@@ -6,10 +6,18 @@
   </head>
   <body>
     <div id="contactCard">
-    {% include nav.html %}
-    <h1>{{ page.title }}</h1>
+      {% include nav.html %}
+      <h1 class="blue">{{ page.title }}</h1>
       <div id="blog_post">
         {{ content }}
+      </div>
+      <div class="page_navigation">
+        {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+        {% endif %}
+        {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
       </div>
     {% include footer.html %}
     </div>

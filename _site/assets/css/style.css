@@ -107,8 +107,37 @@ li.post_title {
   margin-bottom: 0.5em;
 }
 
+li.post_title a {
+  text-decoration: none;
+}
+
+li.post_title a:hover {
+  text-decoration: underline;
+}
+
 #blog_post {
   font-size: 150%;
+  width: 90%;
+  margin: 0px auto;
+}
+
+.page_navigation {
+  font-size: 130%;
+  display: block;
+  overflow: hidden;
+  /*width: 100%;*/
+}
+
+.page_navigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.page_navigation .next {
+  text-align: right;
+  float: right;
 }
 
 h1 {
