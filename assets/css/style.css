@@ -1,3 +1,8 @@
+html {
+  margin: 0px auto;
+  max-width: 1024px;
+}
+
 #profile_pic {
   display: block;
   width: 300px;
@@ -22,4 +27,30 @@
 .logo:hover {
   width: 80px;
   margin: 5px 0px;
+}
+
+h1#hello {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 5em;
+}
+
+.blue {
+  color: #009;
+}
+
+@media screen and (min-width: 800px) {
+  #profile_pic_container {
+    width: 400px;
+    margin: 0px auto;
+  }
+  #profile_pic {
+    float: left;
+  }
+  #logo_container {
+    float: right;
+  }
+  h3 {
+    clear: both;
+  }
 }
