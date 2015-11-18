@@ -30,10 +30,30 @@ html {
   margin: 3px 0px;
 }
 
-h1#hello {
+h1#hello, h1#im_andrew {
   text-align: center;
   margin: 10px auto;
   font-size: 6em;
+}
+
+#nav ul {
+  width: 100%;
+  background-color: #009;
+  list-style-type: none;
+border: 1px solid red;
+}
+
+#nav ul li {
+  text-align: center;
+  margin: 0px 0px 0px -41px;
+border: 1px solid green;
+}
+
+#nav ul li a {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+  /*margin: 0px auto;*/
 }
 
 .blue {
@@ -41,16 +61,32 @@ h1#hello {
 }
 
 @media screen and (min-width: 800px) {
+  #intro {
+    width: 800px;
+    margin: 0px auto;
+  }
   #profile_pic_container {
-    width: 432px;
+    /*width: 800px;*/
     margin: 0px auto;
   }
   #profile_pic {
     float: left;
+    margin-left: 15px;
   }
   #logo_container {
     width: 80px;
     float: right;
+  }
+  h1#hello {
+    width: 360px;
+    float: left;
+    font-size: 90px;
+    text-align: right;
+  }
+  h1#im_andrew {
+    width: 200px;
+    float: right;
+    /*margin: 0px;*/
   }
   h3 {
     clear: both;
