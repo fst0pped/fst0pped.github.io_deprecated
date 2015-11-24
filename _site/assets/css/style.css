@@ -1,181 +1,157 @@
 html {
-  font-family: arial, san-serif;
-  max-width: 1440px;
+  font-family: arial;
   margin: 0px auto;
+  max-width: 1024px;
 }
 
-#contactCard {
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 1em;
+#profile_pic {
+  display: block;
+  width: 300px;
+  margin: 0px auto;
+  padding: 20px;
+  /*border: 1px solid #009;*/
+  border-radius: 50px;
+  -moz-border-radius: 50px;
 }
 
-#nav {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border-top: 4px solid #009;
-  border-bottom: 2px solid #009;
+#logo_container {
+  width: 340px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.logo {
+  width: 60px;
+  margin: 13px 10px;
+}
+
+.logo:hover {
+  width: 80px;
+  margin: 3px 0px;
+}
+
+h1#hello, h1#im_andrew {
+  text-align: center;
+  margin: 10px auto;
+  font-size: 80px;
 }
 
 #nav ul {
-  margin-bottom: auto;
-  margin-top: auto;
-  margin-left: 30%;
-}
-
-#nav li {
-  display: inline;
-  padding: 0em 1.5em;
-}
-
-#nav a {
-  color: #009;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 2em;
-}
-
-#nav a:hover {
-  color: #009;
-  background-color: #eef;
-  padding: 0.26em;
-  margin: -0.26em;
-}
-
-.right_block, .left_block {
-  font-size: 150%;
-}
-
-.right_block {
-  padding-top: 1%;
-  margin-left: 33%;
-}
-
-.left_block {
-  width: 30%;
-  margin: 1%;
-  float: left;
-}
-
-#profile_pic_container {
-  margin-top: 1em;
-  /*padding-right: 3%;*/
-  /*border-right: 3px solid #009;*/
-}
-
-#profile_pic img#me {
-  width: 95%;
-  /*border: 0.4em solid #fff;*/
-  border-radius: 15%;
-  /*box-shadow: 10px 10px 100px #bbb;*/
-}
-
-#profile_pic_container .logo_container {
-  margin: 5% 0%;
-}
-
-#profile_pic_container img.logo {
-  display: inline;
-  width: 15%;
-  margin: 4%;
-  margin-top: 4.5%; /* stops slight vertical movement on hover in Chrome */
-}
-
-#profile_pic_container img.logo:hover {
-  width: 20%;
-  margin: 1.5%;
-}
-
-#text_desc {
-  padding: 0.5%;
-  margin: 1% 1% 2% 1%;
-  font-size: 130%;
-}
-  
-ul.right_block {
+  margin: 0px;
+  padding: 0px;
   list-style-type: none;
 }
 
-.right_block li h4 {
-  margin: 0em;
+#nav ul li {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-.right_block li p {
-  margin-left: 1em;
-  margin-top: 0.5em;
-}
-
-li.post_title {
-  margin-bottom: 0.5em;
-}
-
-li.post_title a {
+#nav ul li a {
+  display: block;
+  width: 100%;
+  background-color: #009;
+  font-weight: bold;
+  font-size: 24px;
   text-decoration: none;
+  color: #fff;
+  padding: 10px;
 }
 
-li.post_title a:hover {
-  text-decoration: underline;
+#nav ul li a:hover, #nav ul li a:active {
+  background-color: #004;
 }
 
-#blog_post {
-  font-size: 150%;
-  width: 90%;
-  margin: 0px auto;
+ul.blog_list, ul.code_list {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+ul.blog_list li:nth-child(odd), ul.code_list li:nth-child(odd) {
+  background-color: #e4e4ff;
+  padding: 5px;
+}
+ul.blog_list li p.desc, ul.code_list li p.desc {
+  font-size: 25px;
+}
+h3, p, h1#blog_title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.page_navigation {
-  font-size: 130%;
-  display: block;
-  overflow: hidden;
+h3, h1#blog_title {
+  font-size: 40px;
 }
 
-.page_navigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
+p {
+  font-size: 30px;
 }
 
-.page_navigation .next {
-  text-align: right;
-  float: right;
+#footer {
+  clear: both;
+  margin-top: 40px;
+  border-top: 1px solid #009;
 }
 
-h1 {
-  font-size: 3em;
+#footer p {
+  font-size: 100%;
 }
 
 .blue {
   color: #009;
 }
 
-#footer {
-  font-size: 0.8em;
-  height: 2em;
-  padding: 1em;
-  border-top: 2px solid #009;
-  text-align: center;
-  clear: both;
-}
-
-.twitter-tweet {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media screen (and max-width: 1024px) {
-  html {
-    max-width: 100%;
-  }  
-  
-  #contactCard {
-    width: 100%;
-    margin: 0em;
-  }  
-  
-  #nav li {
-    display: block;
+@media screen and (min-width: 800px) {
+  #nav ul {
+    position: relative;
+    top: 0;
+    height: 48px;
+    border-top: 3px solid #009;
+    border-bottom: 1px solid #009;
+    background-color: #fff;
+    color: #009;
+  }
+  #nav #menu_container {
+    float: right;
+    width: 400px;
+  }
+  #nav ul li a {
+    display: inline-block;
+    float: left;
+    width: 70px;
+    background-color: #fff;
+    color: #009;
+    }
+  #nav ul li a:hover, #nav ul li a:active {
+    color: #fff;
   }
 }
 
+@media screen and (min-width: 1024px) {
+  #intro {
+    width: 850px;
+    margin: 20px auto;
+  }
+  #profile_pic_container {
+    margin: 0px auto;
+  }
+  #profile_pic {
+    float: left;
+    margin-left: 65px;
+  }
+  #logo_container {
+    width: 80px;
+    float: right;
+    margin-bottom: 20px;
+  }
+  h1#hello {
+    width: 360px;
+    float: left;
+    text-align: right;
+    margin-top: 70px;
+  }
+  h3 {
+    clear: both;
+  }
+}
