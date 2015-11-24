@@ -4,12 +4,12 @@ title: blog
 ---
 
 <div id="text_desc" class="left_block">
-  <h2>Thoughts about digital, open-source, government IT and anything else shiny that catches my eye.</h2>
+  <p>Thoughts about digital, open-source, government IT and anything else shiny that catches my eye.</p>
 </div>
-<ul class="right_block">
+<ul class="blog_list">
   {% for post in site.posts %}
     <li class="post_title">
-	  <h4><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date_to_long_string }}</h4>
+	  <p><strong>{{ post.date | date_to_long_string }}</strong><br /><a href="{{ post.url }}">{{ post.title }}</a></p>
     </li>
   {% endfor %}
 </ul>
