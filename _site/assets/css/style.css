@@ -91,11 +91,12 @@ p {
 #footer {
   clear: both;
   margin-top: 40px;
-  border-top: 1px solid #009;
+  border-top: 1px solid #ccf;
 }
 
 #footer p {
-  font-size: 100%;
+  font-size: 80%;
+  color: #666;
 }
 
 .blue {
@@ -107,8 +108,8 @@ p {
     position: relative;
     top: 0;
     height: 48px;
-    border-top: 3px solid #009;
-    border-bottom: 1px solid #009;
+    /*border-top: 3px solid #009;*/
+    border-bottom: 1px solid #ccf;
     background-color: #fff;
     color: #009;
   }
@@ -145,6 +146,9 @@ p {
     width: 80px;
     float: right;
     /*margin-bottom: 20px;*/
+  }
+  #footer p {
+    font-size: 100%;
   }
   h1#hello {
     width: 360px;
