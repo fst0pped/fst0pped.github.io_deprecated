@@ -139,11 +139,12 @@ p {
   #profile_pic {
     float: left;
     margin-left: 65px;
+    margin-bottom: 10px;
   }
   #logo_container {
     width: 80px;
     float: right;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
   }
   h1#hello {
     width: 360px;
