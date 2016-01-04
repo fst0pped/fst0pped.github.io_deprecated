@@ -63,24 +63,24 @@ h1#hello, h1#im_andrew {
   background-color: #004;
 }
 
-ul.blog_list, ul.code_list {
+ul.code_list {
   margin: 0px;
   padding: 0px;
   list-style-type: none;
 }
-ul.blog_list li:nth-child(odd), ul.code_list li:nth-child(odd) {
+ul.code_list li:nth-child(odd) {
   background-color: #e4e4ff;
   padding: 5px;
 }
-ul.blog_list li p.desc, ul.code_list li p.desc {
+ul.code_list li p.desc {
   font-size: 25px;
 }
-h3, p, h1#blog_title {
+h3, p {
   text-align: center;
   margin-bottom: 20px;
 }
 
-h3, h1#blog_title {
+h3 {
   font-size: 40px;
 }
 
